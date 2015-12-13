@@ -1,3 +1,65 @@
-p {
-    color: blue;
+body {
+    /*background-image: url(../images/index_background.png);*/
+    background-color: grey;
+}
+
+.floating-box {
+    /*width: auto;*/
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.studentspace {
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+
+.studentsignin {
+    position: absolute;
+    top: 0;
+    right: 4%;
+}
+
+.createaccount {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+}
+
+#student {
+    color: white;
+}
+
+#giveproject {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+#listprojects {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#employer {
+    
+    text-align: center;
+}
+
+#employer a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+
+#employer a:hover:not(.active) {
+    background-color: #555;
+    color: red;
 }
