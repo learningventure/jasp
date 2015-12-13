@@ -1,0 +1,9 @@
+body{
+background-color: #3399FF;
+font-family: "Arial", Verdana;
+}
+div#loginForm{
+width: 100%;
+display: inline-block;
+text-align: center;
+}
